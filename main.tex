@@ -1,0 +1,153 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[spanish]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\color{MidnightBlue}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{MidnightBlue}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Sebastián Ignacio Riquelme Muñoz} \\[10pt]
+    {\huge \textcolor{MidnightBlue}{Ingeniero en Informática y Desarrollador Full Stack}} \\[20pt]
+    \small \raisebox{-0.1\height}\faPhone\ +56950438455 ~ 
+    \href{mailto:riquelmemunozsebastian@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{riquelmemunozsebastian@gmail.com}} ~
+    \href{https://www.linkedin.com/in/sebastiánriquelme}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+    \href{http://sebastianriquelme.cl}{\raisebox{-0.2\height}\faGlobe\ \underline{sebastianriquelme.cl}} ~
+    \href{https://github.com/SebastianRiquelmeM}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}}
+\end{center}
+
+%-----------PROFILE-----------
+\section{Perfil Profesional}
+\vspace{6pt}
+\resumeItemListStart
+\resumeItem{Desarrollador full stack con experiencia comprobada en transformar procesos manuales en sistemas digitales escalables que optimizan operaciones y aumentan rentabilidad. Especializado en diseñar aplicaciones web modulares que mejoran la visibilidad financiera y duplican márgenes operativos. He liderado el desarrollo de soluciones tecnológicas con impacto directo en decisiones estratégicas y optimización de recursos para marketing con influencers.}
+\resumeItemListEnd
+
+% -----------EXPERIENCE-----------
+\section{Experiencia Laboral}
+\vspace{6pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Influence Latam}{Marzo 2023 -- Actualidad}
+{Desarrollador Full Stack | Líder Técnico de Proyecto}{Santiago de Chile}
+\resumeItemListStart
+\resumeItem{Diseñé y desarrollé un sistema integral de gestión de campañas (proyecto de título) que proyecta duplicar el margen operativo (10\% a 20\%) al proporcionar visibilidad completa sobre el flujo de caja, controlando el 100\% de los movimientos financieros de la empresa.}
+
+\resumeItem{Implementé cuatro módulos críticos (Cotizaciones, Cobranza, Lista de Influenciadores, Producción) que integran el ciclo financiero completo, con algoritmos para calcular métricas clave como costo por alcance (CPA) y costo por engagement (CPE).}
+\resumeItem{Migré procesos críticos desde Google Sheets a una aplicación web modular con autenticación corporativa, permitiendo gestionar y estandarizar el trabajo con 8,000+ influenciadores en 7 países.}
+\resumeItem{Diseñé una arquitectura en Google Cloud (App Engine + Cloud SQL) que permite a los Account Managers gestionar eficientemente 5-7 campañas simultáneas con visibilidad en tiempo real del presupuesto y alertas ante desviaciones.}
+\resumeItem{Creé benchmarks dinámicos basados en datos actuales que reemplazan indicadores estáticos de hace 3 años, mejorando significativamente la precisión de proyecciones financieras.}
+\resumeItem{Establecí el dominio appinfluence.cl con certificado SSL, configurando escalamiento automático y monitoreo de rendimiento en producción.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Universidad Diego Portales}{2023}
+{Profesor Sustituto de Desarrollo Web}{Santiago de Chile}
+\resumeItemListStart
+\resumeItem{Impartí clases teórico-prácticas presenciales a un curso de 34 estudiantes de ingeniería durante un mes, logrando que el 90\% completara exitosamente los proyectos asignados.}
+\resumeItem{Diseñé ejercicios prácticos enfocados en arquitecturas web modernas y desarrollo full stack aplicable a entornos reales.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Laboratorio Universidad Diego Portales}{Marzo 2022 - Diciembre 2022}
+{Desarrollador Web}{Santiago de Chile}
+\resumeItemListStart
+\resumeItem{Desarrollé funcionalidades clave para la aplicación web labeit.udp.cl, mejorando módulos CRUD y sistemas de administración de inventario para optimizar la gestión del laboratorio.}
+\resumeItem{Implementé un sistema automatizado de notificaciones por correo que mejoró significativamente el proceso de préstamos de equipos para los estudiantes de la universidad.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Universidad Diego Portales}{2022 -- 2023}
+{Ayudante de Desarrollo Web}{Santiago de Chile}
+\resumeItemListStart
+\resumeItem{Dicté clases prácticas a un total de 258 estudiantes durante varios semestres, con un enfoque hands-on que logró que el 85\% aprobara el curso.}
+\resumeItem{Diseñé y evalué proyectos full stack que integraban APIs reales y bases de datos, preparando a los estudiantes para desafíos profesionales actuales.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------EDUCATION-----------
+\section{Educación}
+\vspace{6pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Universidad Diego Portales}{Santiago de Chile}
+{Ingeniería Civil en Informática y Telecomunicaciones}{2018 -- 2025}
+\resumeItemListStart
+\resumeItem{Proyecto de Título: \textit{"Sistema de Gestión de Campañas de Marketing con Influenciadores"} - Implementado en producción en Influence Latam como plataforma central para optimizar operaciones financieras y administrativas.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{5pt}
+
+
+
+%-----------TECHNOLOGIES-----------
+\section{Tecnologías y Habilidades}
+\vspace{6pt}
+\resumeItemListStart
+\resumeItem{\textbf{Especialidad}: React.js, Node.js, Express.js, MySQL, GCP (App Engine, Cloud SQL), JavaScript, Git, REST APIs, OAuth 2.0}
+\resumeItem{\textbf{Experiencia avanzada}: Python, Flask, Bootstrap, TailwindCSS, MongoDB, Docker, JWT, Prisma ORM}
+\resumeItem{\textbf{Conocimientos trabajados}: Java, C++, PHP, Redis, AWS, Mongoose ODM, Linux}
+\resumeItem{\textbf{Arquitectura y diseño}: Migración de sistemas legacy, diseño de bases de datos relacionales, desarrollo modular, autenticación y seguridad web, APIs RESTful, despliegue en la nube}
+\resumeItem{\textbf{Gestión y comunicación}: Metodologías ágiles adaptadas (Scrum individual), levantamiento de requerimientos, documentación técnica, mentorías}
+\resumeItemListEnd
+
+\end{document}
