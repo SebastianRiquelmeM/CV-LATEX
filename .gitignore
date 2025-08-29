@@ -1,0 +1,47 @@
+# ===============================================================
+# Gitignore mejorado para tu proyecto de tesis LaTeX
+# ===============================================================
+
+copy-code.txt
+
+# Archivos de salida principales
+**/thesis.pdf
+*.ps
+*.dvi
+
+# Archivos auxiliares y de compilación de LaTeX
+**/*.aux
+**/*.toc
+**/*.lof
+**/*.lot
+**/*.idx
+**/*.ind
+**/*.ilg
+**/*.out
+**/*.bbl
+**/*.blg
+**/*.log
+**/*.synctex.gz
+**/*.synctex.gz(busy)
+**/*.fls
+**/*.fdb_latexmk
+**/*.bcf
+**/*.run.xml
+
+# Archivos específicos de Sistema Operativo
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# Archivos específicos de tu proyecto
+# Descomentar si NO quieres incluir estos archivos
+# Ante_proyecto_Sebastián_Riquelme.pdf
+# Apuntes_Reunion_comenzar_escrito_profesor_guia.pdf
+# rubrica-taller.pdf
+# tesis-udp.zip
+
+# Mantener los archivos fuente de LaTeX
+!**/*.tex
+!**/*.bib
+!**/*.cls
+!**/*.sty
